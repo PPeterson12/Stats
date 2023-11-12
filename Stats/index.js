@@ -19,18 +19,18 @@ function getMean(arr) {
   return mean;
 }
 
-function getMin(arr) {
+function getMin(numbers) {
   min = 0;
-  for (let i = 0; i < arr.length; i++) {
-    min = Math.min(arr[i]);
+  {
+    min = Math.min(...numbers);
   }
   return min;
 }
 
-function getMax(arr) {
+function getMax(numbers) {
   max = 0;
-  for (let i = 0; i < arr.length; i++) {
-    max = Math.max(arr[i]);
+  {
+    max = Math.max(...numbers);
   }
   return max;
 }
